@@ -1,0 +1,17 @@
+
+public class test3 {
+	public static int azeret(int n) {
+		if (n==1) return 1;
+		if (n%2==0)
+			n=n-1;
+		else;
+		return n*azeret(n-2);
+		
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
